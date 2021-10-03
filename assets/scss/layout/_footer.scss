@@ -1,6 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,7 +10,7 @@
    
   }
   
- 
+  
   .title-footer {
     grid-column: 1/2;
     margin-left: 200px;

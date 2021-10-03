@@ -9,18 +9,14 @@
         @include cols;
     }
 
-    .section__main__collage {
+    .main {
     @include collage;
     }
-    .main {
-    &__item {
+    
+    .main__item {
         display: flex;
         flex: 0 100%;
         flex-direction: column;
-    
-        
-    }
-   
     }
     }
     

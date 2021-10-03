@@ -57,6 +57,7 @@
   
   .main__item--article-paragraph {
     font-size: 12px;
+    text-align: justify;
   }
   
   
@@ -91,6 +92,7 @@
   
   .main__item--class-2021-txt {
    font-size: 12px;
+   text-align: justify;
   }
   
   .more__class {
@@ -99,13 +101,15 @@
     color: $white;
     background: $gray;
     padding: 3px 0;
+    margin-bottom: 0;
   }
 
   
   .section__list {
-    display: flex;
-    justify-content: left;
+    
     font-size: 10px;
+    text-align: left;
+    text-align: left;
   }
   
   

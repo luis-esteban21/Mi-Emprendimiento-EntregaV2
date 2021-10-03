@@ -1,6 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
 * {
     box-sizing: border-box;
 }
@@ -14,49 +11,49 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
 
-    &__item {
+.main__item {
         border: 0.1px solid black;
         flex: 0 48%;
         width: 70%;
-        padding: 10px;
+        padding: 5000px;
         margin: 0 10px;
         flex-direction: column;
         display: flex;
         margin-top: 10px;
     }
-}
 
 .main__article {
     border: 2px solid gainsboro;
     margin: 7px;
     padding: 7px;
+}
 
-    &--img {
+.main__article--img {
         max-width: 100%;
         width: 100%;
     }
 
-    &--tittle {
+.main__article--tittle {
         font-size: 16px;
     }
 
-    &--paragraph {
+.main__article--paragraph {
         font-size: 12px;
     }
 
-    &--instructor {
+.main__article--instructor {
         font-size: $x-small;
     }
 
-}
+
 
 .fullwidth {
     flex: 0 0 100%;
 }
 
-.main__item {
-    &--logo {
+.main__item--logo {
         max-width: 25%;
         border-radius: 100px;
         border: 1px solid black;
@@ -66,20 +63,18 @@
         width: 40%;
     }
 
-    &--tittle-2021 {
+.main__item--tittle-2021 {
         display: flex;
         margin-top: 7px;
         justify-content: center;
     }
 
-    &--icons {
+.main__item--icons {
         display: flex;
         justify-content: center;
         font-size: 14px;
         margin-right: 35px;
     }
-
-}
 
 .fa-iconns {
     display: inline;

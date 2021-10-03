@@ -1,25 +1,24 @@
 @charset "UTF-8";
 
 // 1. Configuration and helpers
-@import
-  'abstracts/variables',
-  'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
 
 // 2. Vendors
 
 
 // 3. Base
-@import 'base/typography',
-        'base/animations',
-        'base/reset';
+@import 'base/typography';
+@import 'base/animations';
+@import 'base/reset';
 
 // 4. Layout-related sections
-@import
-  'layout/header',
-  'layout/footer',
-  'layout/grid',
-  'layout/dispositivos',
-  'layout/navigation';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/dispositivos';
+@import 'layout/navigation';
 
 // 5. Components
 
@@ -27,8 +26,7 @@
 
 
 // 6. Page-specific styles
-@import
-  'pages/home';
+@import 'pages/home';
 
 // 7. Themes
 

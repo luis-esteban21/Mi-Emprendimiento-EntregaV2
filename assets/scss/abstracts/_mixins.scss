@@ -1,26 +1,26 @@
 @mixin text-align {
 
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  @mixin cols {
-    text-align: center;
-    margin-left: 70px;
-  }
-  @mixin collage {
-        margin-top: 10px;
-        display: flex;
-        width: 0 60%;
-        flex: 100%;
-  }
+@mixin cols {
+  text-align: center;
+  margin-left: 70px;
+}
+@mixin collage {
+      margin-top: 10px;
+      display: flex;
+      width: 0 60%;
+      flex: 100%;
+}
 
-  @mixin dev {
-  width: 100%;
-    max-width: 100%;
-  }
+@mixin dev {
+width: 100%;
+  max-width: 100%;
+}
 
 @mixin collage-item {
-          flex: 0 100%;
-           flex-direction: column;
-            display: flex;
+        flex: 0 100%;
+         flex-direction: column;
+          display: flex;
 }

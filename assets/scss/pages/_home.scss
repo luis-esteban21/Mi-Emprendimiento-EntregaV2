@@ -1,126 +1,138 @@
 * {
     box-sizing: border-box;
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     justify-content: center;
-}
-
-.main {
+  }
+  
+  .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
+  
+  .main__item {
+    border: 0.1px solid black;
+    flex: 0  48%;
+    width: 70%;
+    padding: 10px;
+    margin: 0 10px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+  } 
 
-.main__item {
-        border: 0.1px solid black;
-        flex: 0 48%;
-        width: 70%;
-        padding: 5000px;
-        margin: 0 10px;
-        flex-direction: column;
-        display: flex;
-        margin-top: 10px;
-    }
-
-.main__article {
-    border: 2px solid gainsboro;
-    margin: 7px;
-    padding: 7px;
-}
-
-.main__article--img {
-        max-width: 100%;
-        width: 100%;
-    }
-
-.main__article--tittle {
-        font-size: 16px;
-    }
-
-.main__article--paragraph {
-        font-size: 12px;
-    }
-
-.main__article--instructor {
-        font-size: $x-small;
-    }
-
-
-
-.fullwidth {
-    flex: 0 0 100%;
-}
-
-.main__item--logo {
-        max-width: 25%;
-        border-radius: 100px;
-        border: 1px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-    }
-
-.main__item--tittle-2021 {
-        display: flex;
-        margin-top: 7px;
-        justify-content: center;
-    }
-
-.main__item--icons {
-        display: flex;
-        justify-content: center;
-        font-size: 14px;
-        margin-right: 35px;
-    }
-
-.fa-iconns {
+  
+  .main__item--article-image {
+    max-width:100%;
+    width: 100%;
+  } 
+  
+  
+  .main__item--logo {
+    max-width: 25%;
+    border-radius: 100px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero__img {
+    width: 40%;
+  }
+  
+  .main__item--article-tittle {
+    font-size: 16px;
+  }
+  
+  
+  .main__item--article-paragraph {
+    font-size: 12px;
+  }
+  
+  
+  .main__item--article-instructor {
+    font-size: $x-small;
+  }
+  
+  
+  .fa-iconns  {
     display: inline;
     font-size: 15px;
-
-}
-
-span {
+    
+  }
+  
+  span {
     margin-left: 5px;
     font-size: 10px;
-}
+  }
+  
+  .main__item--article {
+    border: 2px solid gainsboro;
+    margin: 7px;
+  padding: 7px;
+  
+  }
+  
+  .main__item--class-2021 {
+    margin-top: 7px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .main__item--class-2021-txt {
+   font-size: 12px;
+  }
+  
+  .more__class {
+    display: flex;
+    justify-content: center;
+    color: $white;
+    background: $gray;
+    padding: 3px 0;
+  }
 
-.more {
-    &__tittle {
-        display: flex;
-        justify-content: center;
-        color: $white;
-        background: $gray;
-        padding: 3px 0;
-    }
+  
+  .section__list {
+    display: flex;
+    justify-content: right;
+    font-size: 10px;
+  }
+  
+  
+  .main__item--list-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+   margin-right: 35px;
 
-    &__list {
-        display: flex;
-        justify-content: left;
-        font-size: 10px;
-    }
-}
-
-ul.a {
-    list-style-type: circle;
-}
-
-.pl-5,
-.px-5 {
+  }
+  
+  ul.a {list-style-type: circle;}
+  
+  .pl-5, .px-5 {
     padding-left: 4rem;
-}
-
-.mt-5,
-.my-5 {
+  }
+  
+  .mt-5, .my-5 {
     margin-top: 1rem;
-}
-
-.a li {
-    color: purple;
-}
-
-li::marker {
-    color: black;
-}
+  }
+  
+  .a li {
+   color: purple;
+  }
+  
+  li::marker {
+   color: black;
+  }
+  
+  

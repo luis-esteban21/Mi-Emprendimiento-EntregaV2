@@ -1,0 +1,13 @@
+
+.button__footer {
+    &--2 {
+      font-size: 12px;
+      border-radius: 5px;
+      background-color:$tangerine;
+  }
+  &--1 {
+    max-width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+}
+}

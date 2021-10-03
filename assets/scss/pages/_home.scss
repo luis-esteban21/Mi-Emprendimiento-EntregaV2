@@ -1,3 +1,131 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item {
+        border: 0.1px solid black;
+        flex: 0 48%;
+        width: 70%;
+        padding: 10px;
+        margin: 0 10px;
+        flex-direction: column;
+        display: flex;
+        margin-top: 10px;
+    }
+}
+
+.main__article {
+    border: 2px solid gainsboro;
+    margin: 7px;
+    padding: 7px;
+
+    &--img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    &--tittle {
+        font-size: 16px;
+    }
+
+    &--paragraph {
+        font-size: 12px;
+    }
+
+    &--instructor {
+        font-size: $x-small;
+    }
+
+}
+
+.fullwidth {
+    flex: 0 0 100%;
+}
+
+.main__item {
+    &--logo {
+        max-width: 25%;
+        border-radius: 100px;
+        border: 1px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    &--tittle-2021 {
+        display: flex;
+        margin-top: 7px;
+        justify-content: center;
+    }
+
+    &--icons {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        margin-right: 35px;
+    }
+
+}
+
+.fa-iconns {
+    display: inline;
+    font-size: 15px;
+
+}
+
+span {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.more {
+    &__tittle {
+        display: flex;
+        justify-content: center;
+        color: $white;
+        background: $gray;
+        padding: 3px 0;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: left;
+        font-size: 10px;
+    }
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+.pl-5,
+.px-5 {
+    padding-left: 4rem;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 1rem;
+}
+
+.a li {
+    color: purple;
+}
+
+li::marker {
+    color: black;
+}

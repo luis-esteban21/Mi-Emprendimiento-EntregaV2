@@ -1,0 +1,33 @@
+.logo {
+    max-height: 30px;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-dark .navbar-toggler {
+    background-color: transparent;
+    color: transparent;
+    border-color:transparent;
+    position: relative;
+    left: 30px;
+}
+
+.fondo {
+    background-color: black;
+}
+
+.nav-bar .ml-auto ,a { 
+font-family:$poppins; 
+font-size: $x-small;
+margin-top: 5px;
+
+}
+  .boton {
+      font-size: 10px;
+  }
+ 
+  .bg-information {
+      background-color: black;
+  }
